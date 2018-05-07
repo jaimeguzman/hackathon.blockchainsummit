@@ -25,6 +25,15 @@ Learn Solidity, a new language for smart contracts (https://www.ethereum.org)
 Como parte interesante podéis ver que la tecnología de blockchain garantizaría la integridad de los mensajes (solo el owner del contrato puede darlos de alta y solo los destinatarios podrán consultar sus mensajes sin poder modificar los que no sean suyos)
 
 
+## Stack & Tools for develop
+
+* http://solidity.readthedocs.io/en/develop/
+* https://github.com/ethereum/web3.js/
+* https://github.com/horizon-games/remix-app/releases
+* https://metamask.io/#how-it-works
+
+
+
 
 CONNECTING TO A PRIVATE TEST NET
 
@@ -68,7 +77,7 @@ My folder:
 - https://github.com/Rentberry
 - https://medium.com/@philippsandner/comparison-of-ethereum-hyperledger-fabric-and-corda-21c1bb9442f6
 - https://medium.com/@naqvi.jafar91/converting-a-property-rental-paper-contract-into-a-smart-contract-daa054fdf8a7
-
+- https://medium.com/@chakrvyuh/prototyping-a-blockchain-smart-contract-78877464e38e
 
 
 
