@@ -111,7 +111,7 @@
         );
 
        // define contract address
-       var Sincerity = sinceryContract.at('0xe39813134acefaf0bb61b0cab84b8fbb7be2b877');                          
+       var Sincerity = sinceryContract.at('0x24d4247ba1c2bf490409bafac877a2bbe8b4eb7b');                          
        console.log(Sincerity);
 
 
@@ -137,7 +137,13 @@
 
        $("#button").click(function() {
            $("#loader").show();
-           Sincerity.setInstructor($("#name").val(), $("#age").val());
+           Sincerity.setInstructor($("#name").val(), $("#age").val(), (err,res) => {
+               if(err){
+                    $("#loader").hide();
+                    console.log("Pincha putada se chingooo");
+               }
+
+           } );
        });
 
 
